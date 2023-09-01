@@ -1,0 +1,150 @@
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Raleway:ital,wght@1,100;1,200&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&family=Teko:wght@300;400;500;600;700&display=swap");
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main_heroes-_blok {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(foto/foto_bagraund_main.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main_heroes-_blok .logo_heroes-blok {
+  display: flex;
+  max-height: 200px;
+  max-width: 350px;
+  margin-top: 50px;
+}
+.main_heroes-_blok .logo_heroes-blok .text_logo-heroes {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: white 3px 2px 0px;
+  color: black;
+}
+.main_heroes-_blok .logo_heroes-blok .foto_logo-heroes {
+  height: 35px;
+  width: 35px;
+  border-radius: 15px;
+  margin-top: 10px;
+  box-shadow: inset;
+}
+.main_heroes-_blok .button_next-hero {
+  width: 65px;
+  height: 36px;
+  border-radius: 8px 18px 18px 8px;
+  background-color: rgb(50, 45, 45);
+  border: white solid 1px;
+  box-shadow: white 2px 2px 4px;
+  position: absolute;
+  right: 40px;
+  top: 230px;
+  text-align: center;
+  color: rgb(22, 162, 162);
+}
+.main_heroes-_blok .button_prev-hero {
+  width: 65px;
+  height: 36px;
+  border-radius: 18px 8px 8px 18px;
+  background-color: rgb(50, 45, 45);
+  border: white solid 1px;
+  box-shadow: white 2px 2px 4px;
+  position: absolute;
+  left: 40px;
+  top: 230px;
+  text-align: center;
+  color: rgb(22, 162, 162);
+}
+.main_heroes-_blok .button_next-hero:hover {
+  cursor: pointer;
+  opacity: 80%;
+  border: white solid 2px;
+}
+.main_heroes-_blok .button_prev-hero:hover {
+  cursor: pointer;
+  opacity: 80%;
+  border: white solid 2px;
+}
+.main_heroes-_blok .container_heroes {
+  width: 650px;
+  min-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+  color: white;
+}
+.main_heroes-_blok .container_heroes .heroe_blok {
+  width: 80px;
+  height: 80px;
+  background-image: url(foto/bgr_heroeas.gif);
+  background-size: cover;
+  border-radius: 10px;
+  margin: 15px 15px 0px 15px;
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: white 2px 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 4px;
+  text-align: center;
+}
+.main_heroes-_blok .container_heroes .heroe_blok:hover {
+  cursor: pointer;
+  border: white solid 1px;
+}
+.main_heroes-_blok .container_heroes-info {
+  max-height: 200px;
+  width: 550px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border: white solid 2px;
+  box-shadow: white 2px 3px 4px;
+  border-radius: 10px;
+  background-color: rgb(117, 24, 47);
+  opacity: 85%;
+  border-spacing: 15px;
+  flex-direction: row;
+}
+.main_heroes-_blok .container_heroes-info .heroes_main-info {
+  font-weight: 500;
+  color: white;
+}
+.main_heroes-_blok .container_heroes-info .heroes_secondary-info {
+  font-weight: 500;
+  color: rgb(22, 162, 162);
+}
+.main_heroes-_blok .container_heroes-info ul {
+  list-style-type: none;
+}
+.main_heroes-_blok .container_heroes-info ul li:nth-of-type(1) {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px 18px 5px 8px;
+  box-shadow: white 2px 2px 2px;
+}
+.main_heroes-_blok .container_heroes-info ul li:nth-of-type(2) {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 2px 16px 0px 8px;
+  color: rgb(22, 162, 162);
+}
+.main_heroes-_blok .container_heroes-info .close {
+  background-image: url(foto/bgr_heroeas.gif);
+  color: white;
+  height: 20px;
+  width: 20px;
+  box-shadow: white 2px 2px 2px;
+  margin-top: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
